@@ -22,7 +22,7 @@ def gunaydin():
 
 while True:
     t = datetime.now()
-    if t.hour == 08 and t.minute == 10:
+    if t.hour == 8 and t.minute == 10:
         gunaydin()
         continue
     time.sleep(50)
